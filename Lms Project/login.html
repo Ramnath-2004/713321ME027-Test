@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="/assets/icons/icon.png" type="image">
+    <title>Library Management System - Login</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        /* footer */
+        .margin {
+            margin-top: 200px;
+        }
+
+        /* bg */
+        .image {
+            background-image: url(/assets/icons/background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: auto;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* login form */
+        .login-container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-form {
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+
+<body class="image">
+    <section>
+        <!-- Header section (navbar) -->
+        <header id="container">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-md-6 col-lg-12">
+                        <nav class="nav justify-content-end">
+                            <a class="nav-link" href="/index.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960"
+                                    width="40px" fill="#e8eaed">
+                                    <path
+                                        d="M180-120q-25 0-42.5-17.5T120-180v-76l160-142v278H180Zm140 0v-160h320v160H320Zm360 0v-328L509-600l121-107 190 169q10 9 15 20.5t5 24.5v313q0 25-17.5 42.5T780-120H680ZM120-310v-183q0-13 5-25t15-20l300-266q8-8 18.5-11.5T480-819q11 0 21.5 3.5T520-804l80 71-480 423Z" />
+                                </svg>
+                            </a>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Login form section -->
+        <div class="container mt-5">
+            <div class="login-container">
+                <h2 class="text-center mb-4">Login to Your Account</h2>
+                <form class="login-form " action="/books.html" >
+                    <div class="mb-3">
+                        <label>Username</label>
+                        <input type="text" class="form-control" name="username" required>
+                    </div>
+                    <div class="mb-3">
+                        <label>Password</label>
+                        <input type="password" class="form-control" name="password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                </form>
+                <p class="text-center">Don't have an account? <a href="/signup.html">Sign Up</a></p>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- JavaScript and Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+<footer class="margin">
+    <!-- Footer section -->
+    <div class="text-center py-1 text-light">
+        &copy; 2024 Library Management System. All Rights Reserved.
+    </div>
+</footer>
+
+</html>

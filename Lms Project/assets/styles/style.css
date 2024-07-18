@@ -1,0 +1,85 @@
+/* univeral selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav bar */
+#container{
+    display: flex;
+    justify-content:fle;
+    padding: 30px;
+    padding-left: 0px;
+    
+}
+.color{
+    color:cadetblue;
+    font-weight: 700;
+}
+
+.text{
+        font-family: "Playwrite CU", cursive;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.logo{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    color: azure;
+}
+a{
+    padding-left: 40px;
+    text-decoration: none;
+}
+/* image */
+.image{
+    background-image: url(/assets/icons/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
+/* body box */
+
+.body{
+    font-family: poppins,sans-serif;
+    padding-top: 150px;
+    font-style: italic;
+    height: 740px;
+}
+.img{
+    background-image: url(/assets/icons/section-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* about */
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 170px;
+}
+.contentside{
+    font-family: "Playwrite CU", cursive;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.contentbody,li,ul {
+    font-family: poppins,sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+/* books page */
+
+/* books size */
+.size{
+    width: 300px;  
+}
+.pop{
+    font-family: poppins,sans-serif;
+    font-weight: 600;
+}
